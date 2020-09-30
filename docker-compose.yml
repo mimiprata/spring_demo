@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-  romcat-db-api:
-    image: registry.heroku.com/spring-demo-ds2020/web
+  tomcat-db-api:
+    image: your_image_name
     ports:
        - "8080:8080"
