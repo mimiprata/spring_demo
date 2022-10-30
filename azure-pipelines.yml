@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'd097d13a-3676-4faa-a9fa-9db63462e253'
   imageRepository: 'mirelaback'
   containerRegistry: 'containermirela.azurecr.io'
-  dockerfilePath: '${Build.SourcesDirectory}/Dockerfile'
+  dockerfilePath: 'Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
