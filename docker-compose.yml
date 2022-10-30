@@ -3,6 +3,6 @@ version: '3'
 services:
 
   tomcat-db-api:
-    image: mirelaback
+    image: containermirela.azurecr.io/mirelaback
     ports:
        - "8080:8080"
